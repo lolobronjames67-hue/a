@@ -50,7 +50,7 @@ header a:hover{
 }
 body {
     width:100%;
-    min-height:100vh;
+    min-height:100dvh;
     overflow-x:hidden;
     background: radial-gradient(circle, #98e5ff, #539ce4, #3fc65f, #0a5e28);
     background-size:400% 400%;
@@ -58,6 +58,7 @@ body {
     display:flex;
     flex-direction:column;
     align-items:center;
+    overscroll-behavior:none;
 }
 .card {
     background: white;
@@ -195,7 +196,6 @@ footer{
     padding:30px 20px;
     font-family:'Arial',sans-serif;
     margin-top:50px;
-    margin-bottom:0px;
 }
 .icon{
     display: flex;
